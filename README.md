@@ -25,7 +25,7 @@ code .
 yarn start
 ```
 ### 設定は使いまわそう
-- 新たなプロジェクトを作るときにもこちらの設定ファイルたちは使い回しましょう
-- create-react-appと競合する部分は修正しつつ
+- 新たなプロジェクトを作るときにはこのフォルダをひな形にすれば良い
+- つまり、create-react-app要らず
 ### すべてこちらに
 [りあクト！](https://github.com/oukayuka/ReactBeginnersBook-2.0/tree/master/06-lint/03-mysetting)
