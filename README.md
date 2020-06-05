@@ -3,17 +3,9 @@
 - VSCodeでReact(TypeScript)開発
 - Lint + フォーマッター効かせたい
 ## 前提
-- VSCodeにExtensions入れただけでESLintやらが動くわけではない。ESLintやらはプロジェクト毎にinstallする必要アリ
 - VSCodeにExtensions2種類入れる
   - ESLint
   - Prettier
-- VSCodeは.vscode以下のsetting.jsonを拾う
-  - .vscode使わない場合は下記をsettings.jsonに記入
-```xxx.json
-"editor.codeActionsOnSave": {
-  "source.fixAll.eslint": true
-},
-```
 ## 実行
 ```xxx.sh
 git clone [THIS_REPOSITORY]
@@ -26,8 +18,8 @@ code .
 yarn start
 ```
 ## 自分で一から作る場合(ミニマム構成)
-- Extentions(ESLintとPrettier)入れる
-- settings.jsonに追記
+- VSCodeにExtentions(ESLintとPrettier)入れる
+- グローバルなsettings.jsonに追記(.vscodeディレクトリ準備して中にsettings.json作るのも可)
 ```xxx.json
 "editor.codeActionsOnSave": {
   "source.fixAll.eslint": true
