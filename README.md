@@ -3,8 +3,7 @@
 - VSCodeでReact(TypeScript)開発
 - Lint + フォーマッター効かせたい
 ## 前提
-- VSCodeにExtensions入れただけでESLintやらが動くわけではない
-- ローカルにESLintやらをプロジェクト毎にinstallする必要アリ
+- VSCodeにExtensions入れただけでESLintやらが動くわけではない。ESLintやらはプロジェクト毎にinstallする必要アリ
 - VSCodeにExtensions2種類入れる
   - ESLint
   - Prettier
