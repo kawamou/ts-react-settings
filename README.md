@@ -26,8 +26,6 @@ code .
 
 yarn start
 ```
-## 設定は使いまわそう
-- 新たなプロジェクトを作るときにはこのフォルダをひな形にすれば良い
 ## 自分で一から作る場合(ミニマム構成)
 - Extentions(ESLintとPrettier)入れる
 - settings.jsonに追記
