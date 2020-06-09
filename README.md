@@ -56,6 +56,11 @@ vim .eslintrc.json
 }
 ```
 - VSCode開くとLintとフォーマッター効いてるはず
+- create-react-app使う場合も一緒
+```xxx.sh
+npx create-react-app react-modern-tutorial --typescript
+```
+でひな形作ってから上記yarn addからやっていけばOK
 ## 参考
 - [VSCodeでESLint+typescript-eslint+Prettierを導入する](https://qiita.com/madono/items/a134e904e891c5cb1d20)
 - [りあクト！](https://github.com/oukayuka/ReactBeginnersBook-2.0/tree/master/06-lint/03-mysetting)
