@@ -58,7 +58,7 @@ vim .eslintrc.json
 - VSCode開くとLintとフォーマッター効いてるはず
 - create-react-app使う場合も一緒
 ```xxx.sh
-npx create-react-app react-modern-tutorial --typescript
+npx create-react-app APP_NAME --typescript
 ```
 でひな形作ってから上記yarn addからやっていけばOK
 ## 参考
